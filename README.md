@@ -91,6 +91,23 @@ JMeter tests were performed with:
 - Average Latency
 
 ---
+## JMeter Performance Testing Summary
+
+Load testing was performed with **10, 30, and 50 users** on:
+
+- Login API
+- Product API
+- Add to Cart API
+- Place Order API
+
+### Findings
+- **Login API** and **Product API** remained stable with **0% error** across all three load scenarios.
+- **Cart API** started showing errors at **30+ users** because the available product stock was only **10 units**.
+- **Place Order API** also showed increased error rates as user load increased and stock became unavailable.
+- At **50 users**, both **Cart** and **Order** APIs experienced higher failures due to stock limitations.
+
+### Conclusion
+The system handled **authentication** and **product retrieval** well under load, but **cart and order operations were affected by inventory constraints**, reflecting a realistic e-commerce performance testing scenario.
 
 ## How to Run
 
