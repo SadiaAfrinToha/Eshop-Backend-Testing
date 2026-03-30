@@ -1,0 +1,75 @@
+{
+  "info": {
+    "_postman_id": "2faf6b79-ad3f-4d78-977b-389e1b8662e6",
+    "name": "eshop-backend-testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50923102",
+    "_collection_link": "https://go.postman.co/collection/50923102-2faf6b79-ad3f-4d78-977b-389e1b8662e6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Login (Valid)",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Login (Invalid)",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Login (Empty)",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Products",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Cart (Valid)",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Cart (Invalid)",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Cart (Out of Stock)",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Order",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
